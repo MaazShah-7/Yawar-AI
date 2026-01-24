@@ -978,8 +978,8 @@ body, html {
         padding: 30px;
     }
 
-    .contact-form-panel {
-        padding: 30px;
+    .back-chat-link {
+        margin-top: 40px;
     }
 
     .info-row {
@@ -993,14 +993,14 @@ body, html {
         height: auto;
         min-height: 100vh;
         display: flex;
-        margin-top: 70px;
+        margin-top: 40px;
         justify-content: center;
         align-items: center;
     }
 
     .frosted-glass-card {
         max-width: 100%;
-        margin-top: 70px;
+        margin-top: 40px;
     }
 
     .contact-info-panel,
@@ -1030,7 +1030,7 @@ body, html {
     }
 
     .back-chat-link {
-        margin-top: 70px;
+        margin-top: 40px;
         font-size: 15px;
         padding: 8px 16px;
     }
@@ -1041,14 +1041,14 @@ body, html {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin-top: 70px;
+    margin-top: 30px;
     padding: 20px;
 }
 
 .frosted-glass-card {
     display: flex;
     max-width: 900px;
-    margin-top: 70px;
+    margin-top: 30px;
     width: 100%;
     background: rgba(255, 255, 255, 0.04); /* Very subtle white */
     backdrop-filter: blur(25px); /* Strong frosted effect */
@@ -1626,12 +1626,10 @@ body, html {
     .contact-section-container {
         padding: 30px;
         height: 100vh;
-        margin-top: 70px;
     }
 
     .frosted-glass-card {
         max-width: 1000px;
-        margin-top: 70px;
     }
 
     .contact-info-panel {
@@ -1677,7 +1675,7 @@ body, html {
         height: auto;
         min-height: auto;
         display: flex;
-        margin-top: 70px;
+        margin-top: 20px;
         justify-content: center;
         align-items: center;
     }
@@ -1685,7 +1683,7 @@ body, html {
     .frosted-glass-card {
         flex-direction: column;
         max-width: 90%;
-        margin-top: 70px;
+        margin-top: 20px;
         width: 100%;
     }
 
@@ -2005,6 +2003,7 @@ body, html {
         width: 80px;
     }
 }
+
 
 
 
