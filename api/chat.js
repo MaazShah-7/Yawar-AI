@@ -6,7 +6,7 @@ export default async function handler(req, res) {
     }
 
     const API_KEY = process.env.GEMINI_KEY; // This name must match Vercel settings
-    const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`;
+    const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=${API_KEY}`;
 
     try {
         const response = await fetch(API_URL, {
@@ -20,4 +20,5 @@ export default async function handler(req, res) {
     } catch (error) {
         return res.status(500).json({ error: 'Failed to communicate with AI' });
     }
+
 }
