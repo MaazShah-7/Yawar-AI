@@ -969,6 +969,7 @@ body, html {
     .frosted-glass-card {
         flex-direction: column;
         max-width: 95%;
+        margin-top: 70px;
     }
 
     .contact-info-panel {
@@ -992,12 +993,14 @@ body, html {
         height: auto;
         min-height: 100vh;
         display: flex;
+        margin-top: 70px;
         justify-content: center;
         align-items: center;
     }
 
     .frosted-glass-card {
         max-width: 100%;
+        margin-top: 70px;
     }
 
     .contact-info-panel,
@@ -1027,7 +1030,7 @@ body, html {
     }
 
     .back-chat-link {
-        margin-top: 80px;
+        margin-top: 70px;
         font-size: 15px;
         padding: 8px 16px;
     }
@@ -1038,12 +1041,14 @@ body, html {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin-top: 70px;
     padding: 20px;
 }
 
 .frosted-glass-card {
     display: flex;
     max-width: 900px;
+    margin-top: 70px;
     width: 100%;
     background: rgba(255, 255, 255, 0.04); /* Very subtle white */
     backdrop-filter: blur(25px); /* Strong frosted effect */
@@ -1621,10 +1626,12 @@ body, html {
     .contact-section-container {
         padding: 30px;
         height: 100vh;
+        margin-top: 70px;
     }
 
     .frosted-glass-card {
         max-width: 1000px;
+        margin-top: 70px;
     }
 
     .contact-info-panel {
@@ -1670,6 +1677,7 @@ body, html {
         height: auto;
         min-height: auto;
         display: flex;
+        margin-top: 70px;
         justify-content: center;
         align-items: center;
     }
@@ -1677,6 +1685,7 @@ body, html {
     .frosted-glass-card {
         flex-direction: column;
         max-width: 90%;
+        margin-top: 70px;
         width: 100%;
     }
 
@@ -1728,6 +1737,7 @@ body, html {
     .contact-section-container {
         padding: 12px;
         max-height: 800px;
+        margin-top: 70px;
         min-height: auto;
         display: flex;
         justify-content: center;
@@ -1736,6 +1746,7 @@ body, html {
 
     .frosted-glass-card {
         flex-direction: column;
+        margin-top: 70px;
         max-width: 100%;
         max-height: 800px;
         border-radius: 14px;
@@ -1817,6 +1828,7 @@ body, html {
     .contact-section-container {
         padding: 50px 10px;
         height: auto;
+        margin-top: 80px;
         min-height: auto;
         display: flex;
         justify-content: center;
@@ -1825,6 +1837,7 @@ body, html {
 
     .frosted-glass-card {
         flex-direction: column;
+        margin-top: 80px;
         max-width: 100%;
         border-radius: 12px;
         box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
@@ -1947,11 +1960,13 @@ body, html {
         min-height: auto;
         display: flex;
         justify-content: center;
+        margin-top: 80px;
         align-items: center;
     }
 
     .frosted-glass-card {
         border-radius: 12px;
+        margin-top: 80px;
     }
 
     .contact-info-panel,
@@ -1990,5 +2005,6 @@ body, html {
         width: 80px;
     }
 }
+
 
 
