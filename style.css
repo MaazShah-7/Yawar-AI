@@ -1114,7 +1114,7 @@ body, html {
 .back-chat-link {
     display: inline-block;
     background: transparent;
-    margin-top: 130px;
+    margin-top: 20px;
     color: whitesmoke;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -1188,3 +1188,800 @@ body, html {
     100% { transform: scale(1); opacity: 1; }
 
 }
+/* --- 5. Responsive Media Queries --- */
+
+/* Extra Small Devices (Phones - 320px and up) */
+@media (max-width: 480px) {
+    .main-content {
+        padding: 1rem 0.75rem;
+    }
+
+    .hero {
+        top: 15px;
+        left: 15px;
+    }
+
+    .hero .logo {
+        width: 120px;
+    }
+
+    .theme-switcher {
+        top: 20px;
+        right: 15px;
+        gap: 5px;
+    }
+
+    .theme-btn {
+        width: 12px;
+        height: 12px;
+        border-width: 1px;
+    }
+
+    .theme-btn.active {
+        transform: scale(1.15);
+    }
+
+    .menu-toggle {
+        top: 20px;
+        left: 10px;
+    }
+
+    .welcome-note h2 {
+        font-size: 1.75rem;
+    }
+
+    .welcome-note p {
+        font-size: 0.95rem;
+        margin-bottom: 20px;
+    }
+
+    .chat-container {
+        padding: 0.75rem;
+        gap: 10px;
+        margin-top: 1.5rem;
+    }
+
+    .message {
+        max-width: 85%;
+        padding: 10px 12px;
+        font-size: 0.9rem;
+    }
+
+    .message.user-message {
+        padding: 10px 14px;
+        font-size: 0.9rem;
+    }
+
+    .message.bot-message {
+        max-width: 95%;
+        font-size: 0.9rem;
+        padding: 12px 14px;
+    }
+
+    .input-area {
+        max-width: 100%;
+        padding: 0.75rem;
+    }
+
+    .input-wrapper {
+        padding: 6px 4px;
+        border-radius: 20px;
+    }
+
+    .input-wrapper input {
+        padding: 10px;
+        font-size: 0.95rem;
+    }
+
+    .send-btn {
+        width: 36px;
+        height: 36px;
+    }
+
+    .send-btn .arrow {
+        font-size: 1.4rem;
+    }
+
+    .disclaimer, .Copyright {
+        font-size: 0.65rem;
+    }
+
+    .sidebar {
+        width: 240px;
+        padding: 60px 15px 15px;
+    }
+
+    .new-chat-btn {
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    .btn-left {
+        gap: 10px;
+        font-size: 12px;
+    }
+
+    .nav-item {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .dropdown-btn {
+        font-size: 12px;
+        padding: 8px;
+    }
+}
+
+/* Small Devices (Phones - 481px to 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .main-content {
+        padding: 1.25rem;
+    }
+
+    .hero {
+        top: 20px;
+        left: 20px;
+    }
+
+    .hero .logo {
+        width: 140px;
+    }
+
+    .theme-switcher {
+        top: 28px;
+        right: 20px;
+    }
+
+    .theme-switcher {
+        top: 28px;
+        right: 20px;
+        gap: 7px;
+    }
+
+    .theme-btn {
+        width: 15px;
+        height: 15px;
+        border-width: 1.2px;
+    }
+
+    .theme-btn.active {
+        transform: scale(1.17);
+    }
+
+    .welcome-note h2 {
+        font-size: 2.2rem;
+    }
+
+    .welcome-note p {
+        font-size: 1.1rem;
+    }
+
+    .chat-container {
+        max-width: 100%;
+        padding: 1rem 0.75rem;
+        margin-top: 2rem;
+    }
+
+    .message {
+        max-width: 80%;
+        padding: 11px 15px;
+        font-size: 0.95rem;
+    }
+
+    .message.user-message {
+        padding: 11px 16px;
+    }
+
+    .message.bot-message {
+        max-width: 88%;
+        font-size: 0.95rem;
+    }
+
+    .input-area {
+        max-width: 100%;
+        padding: 1rem;
+    }
+
+    .input-wrapper {
+        padding: 7px 4px;
+    }
+
+    .input-wrapper input {
+        padding: 11px;
+    }
+
+    .send-btn {
+        width: 38px;
+        height: 38px;
+    }
+
+    .send-btn .arrow {
+        font-size: 1.5rem;
+    }
+
+    .sidebar {
+        width: 260px;
+        padding: 70px 18px 18px;
+    }
+
+    .new-chat-btn {
+        font-size: 14px;
+        padding: 11px;
+    }
+}
+
+/* Medium Devices (Tablets - 769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .main-content {
+        padding: 1.5rem;
+    }
+
+    .hero .logo {
+        width: 150px;
+    }
+
+    .theme-switcher {
+        top: 30px;
+        right: 25px;
+        gap: 9px;
+    }
+
+    .theme-btn {
+        width: 16px;
+        height: 16px;
+        border-width: 1.3px;
+    }
+
+    .theme-btn.active {
+        transform: scale(1.18);
+    }
+
+    .welcome-note h2 {
+        font-size: 2.8rem;
+    }
+
+    .welcome-note p {
+        font-size: 1.2rem;
+    }
+
+    .chat-container {
+        max-width: 800px;
+        padding: 1.25rem;
+    }
+
+    .message {
+        max-width: 75%;
+        padding: 12px 16px;
+        font-size: 0.98rem;
+    }
+
+    .message.bot-message {
+        max-width: 85%;
+    }
+
+    .input-area {
+        max-width: 800px;
+    }
+
+    .sidebar {
+        width: 270px;
+    }
+}
+
+/* Large Devices (Desktops - 1025px to 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .main-content {
+        padding: 2rem;
+    }
+
+    .hero .logo {
+        width: 160px;
+    }
+
+    .welcome-note h2 {
+        font-size: 3.2rem;
+    }
+
+    .welcome-note p {
+        font-size: 1.4rem;
+    }
+
+    .chat-container {
+        max-width: 900px;
+    }
+
+    .message {
+        max-width: 72%;
+    }
+
+    .message.bot-message {
+        max-width: 82%;
+    }
+
+    .input-area {
+        max-width: 900px;
+    }
+}
+
+/* Extra Large Devices (Wide Desktops - 1441px and up) */
+@media (min-width: 1441px) {
+    .main-content {
+        padding: 2.5rem;
+    }
+
+    .hero .logo {
+        width: 180px;
+    }
+
+    .welcome-note h2 {
+        font-size: 3.5rem;
+    }
+
+    .welcome-note p {
+        font-size: 1.5rem;
+    }
+
+    .chat-container {
+        max-width: 1000px;
+    }
+
+    .input-area {
+        max-width: 1000px;
+    }
+}
+
+/* Landscape Orientation (Small Height - max 500px) */
+@media (max-height: 500px) {
+    .welcome-note h2 {
+        font-size: 1.8rem;
+    }
+
+    .welcome-note p {
+        font-size: 0.9rem;
+        margin-bottom: 15px;
+    }
+
+    .hero .logo {
+        width: 100px;
+    }
+
+    .chat-container {
+        margin-top: 1.5rem;
+    }
+
+    .message {
+        padding: 8px 12px;
+        font-size: 0.85rem;
+    }
+
+    .input-wrapper input {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+}
+
+/* Portrait Orientation with Good Height (min 700px height) */
+@media (min-height: 700px) and (orientation: portrait) {
+    .welcome-container {
+        min-height: 400px;
+    }
+
+    .chat-container {
+        margin-top: 3.5rem;
+    }
+}
+
+/* Touch Device Optimization (Increase button/tap targets) */
+@media (hover: none) and (pointer: coarse) {
+    .send-btn,
+    .theme-btn,
+    .new-chat-btn,
+    .nav-item,
+    .dropdown-btn {
+        min-height: 44px;
+        min-width: 44px;
+    }
+
+    .theme-btn {
+        width: 18px;
+        height: 18px;
+        border-width: 1.5px;
+    }
+
+    .message {
+        padding: 14px 18px;
+    }
+
+    .input-wrapper input {
+        padding: 14px;
+    }
+}
+
+/* High DPI Screens / Retina Display */
+@media (min-device-pixel-ratio: 2) and (max-width: 768px) {
+    .message {
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+    }
+
+    .input-wrapper {
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.02);
+    }
+}
+
+/* Contact Page Responsive Styling */
+
+/* Large Screens (Desktop - 1200px and above) */
+@media (min-width: 1200px) {
+    .contact-section-container {
+        padding: 30px;
+        height: 100vh;
+    }
+
+    .frosted-glass-card {
+        max-width: 1000px;
+    }
+
+    .contact-info-panel {
+        padding: 50px;
+    }
+
+    .contact-form-panel {
+        padding: 50px;
+    }
+
+    .info-row {
+        font-size: 17px;
+        margin-bottom: 25px;
+    }
+
+    .contact-form-panel label {
+        font-size: 13px;
+    }
+
+    .contact-form-panel input,
+    .contact-form-panel textarea {
+        padding: 12px;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .submit-btn {
+        padding: 14px;
+        font-size: 18px;
+    }
+
+    .back-chat-link {
+        margin-top: 8px;
+        font-size: 17px;
+        padding: 10px 20px;
+    }
+}
+
+/* Medium Screens (Tablets - 768px to 1199px) */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .contact-section-container {
+        padding: 5px 15px;
+        height: auto;
+        min-height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .frosted-glass-card {
+        flex-direction: column;
+        max-width: 90%;
+        width: 100%;
+    }
+
+    .contact-info-panel {
+        border-right: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        padding: 25px;
+    }
+
+    .contact-form-panel {
+        padding: 25px;
+    }
+
+    .info-row {
+        font-size: 15px;
+        margin-bottom: 12px;
+    }
+
+    .contact-info-panel .info-row:last-of-type {
+        margin-bottom: 0px;
+    }
+
+    .contact-form-panel label {
+        font-size: 11px;
+        margin-bottom: 4px;
+    }
+
+    .contact-form-panel input,
+    .contact-form-panel textarea {
+        padding: 9px;
+        margin-bottom: 12px;
+        font-size: 13px;
+    }
+
+    .submit-btn {
+        padding: 11px;
+        font-size: 15px;
+    }
+
+    .back-chat-link {
+        margin-top: 8px;
+        font-size: 13px;
+        padding: 7px 12px;
+    }
+}
+
+/* Small Tablets (600px to 767px) */
+@media (min-width: 600px) and (max-width: 767px) {
+    .contact-section-container {
+        padding: 12px;
+        max-height: 800px;
+        min-height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .frosted-glass-card {
+        flex-direction: column;
+        max-width: 100%;
+        max-height: 800px;
+        border-radius: 14px;
+    }
+
+    .contact-info-panel {
+        border-right: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        padding: 18px;
+    }
+
+    .contact-form-panel {
+        padding: 18px;
+    }
+
+    .info-row {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    .contact-info-panel .info-row:last-of-type {
+        margin-bottom: 0px;
+    }
+
+    .contact-form-panel label {
+        font-size: 10px;
+        margin-bottom: 3px;
+    }
+
+    .contact-form-panel input,
+    .contact-form-panel textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        font-size: 12px;
+        border-radius: 5px;
+    }
+
+    .contact-form-panel textarea {
+        resize: vertical;
+        min-height: 80px;
+    }
+
+    .submit-btn {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+        border-radius: 5px;
+    }
+
+    .back-chat-link {
+        display: block;
+        margin-top: 5px;
+        font-size: 11px;
+        padding: 6px 9px;
+        text-align: center;
+        width: 100%;
+        border-radius: 18px;
+    }
+
+    .hero .logo {
+        width: 120px;
+    }
+
+    .theme-switcher {
+        top: 20px;
+        right: 15px;
+        gap: 8px;
+    }
+
+    .menu-toggle {
+        top: 20px;
+        left: 15px;
+    }
+}
+
+/* Mobile Phones (Below 600px) */
+@media (max-width: 599px) {
+    .contact-section-container {
+        padding: 50px 10px;
+        height: auto;
+        min-height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .frosted-glass-card {
+        flex-direction: column;
+        max-width: 100%;
+        border-radius: 12px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        max-height: none;
+        height: auto;
+    }
+
+    .contact-info-panel {
+        border-right: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        padding: 15px;
+        padding-bottom: 5px;
+        background: rgba(0, 0, 0, 0.15);
+        max-height: none;
+        height: auto;
+    }
+
+    .contact-form-panel {
+        padding: 15px;
+    }
+
+    .info-row {
+        font-size: 12px;
+        margin-bottom: 8px;
+        flex-wrap: wrap;
+    }
+
+    .contact-info-panel .info-row:last-of-type {
+        margin-bottom: 0px;
+    }
+
+    .contact-form-panel label {
+        font-size: 9px;
+        margin-bottom: 3px;
+        letter-spacing: 0.3px;
+    }
+
+    .contact-form-panel input,
+    .contact-form-panel textarea {
+        width: 100%;
+        padding: 7px;
+        margin-bottom: 8px;
+        font-size: 12px;
+        border-radius: 5px;
+    }
+
+    .contact-form-panel textarea {
+        resize: vertical;
+        min-height: 70px;
+    }
+
+    .submit-btn {
+        width: 100%;
+        padding: 9px;
+        font-size: 13px;
+        border-radius: 5px;
+    }
+
+    .submit-btn:active {
+        transform: scale(0.98);
+    }
+
+    .back-chat-link {
+        display: block;
+        margin-top: 20px;
+        font-size: 11px;
+        padding: 7px 10px;
+        text-align: center;
+        width: 100%;
+        border-radius: 18px;
+    }
+
+    .hero {
+        top: 15px;
+        left: 15px;
+    }
+
+    .hero .logo {
+        width: 100px;
+    }
+
+    .theme-switcher {
+        top: 15px;
+        right: 12px;
+        gap: 6px;
+    }
+
+    .theme-btn {
+        width: 16px;
+        height: 16px;
+    }
+
+    .menu-toggle {
+        top: 15px;
+        left: 12px;
+    }
+
+    .menu-toggle svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    /* Improve text readability on small screens */
+    .contact-form-panel h2,
+    .contact-info-panel h1 {
+        font-size: 24px;
+    }
+
+    #form-status {
+        font-size: 12px;
+        margin-top: 8px;
+    }
+}
+
+/* Extra Small Mobile (Below 360px) */
+@media (max-width: 359px) {
+    .contact-section-container {
+        padding: 8px;
+        max-height: 950px;
+        min-height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .frosted-glass-card {
+        border-radius: 12px;
+    }
+
+    .contact-info-panel,
+    .contact-form-panel {
+        padding: 15px;
+    }
+
+    .info-row {
+        font-size: 8px;
+        margin-bottom: 10px;
+    }
+
+    .contact-form-panel label {
+        font-size: 9px;
+    }
+
+    .contact-form-panel input,
+    .contact-form-panel textarea {
+        padding: 8px;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+
+    .submit-btn {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .back-chat-link {
+        margin-top: 0px;
+        font-size: 12px;
+        padding: 7px 10px;
+    }
+
+    .hero .logo {
+        width: 80px;
+    }
+}
+
