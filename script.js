@@ -1,5 +1,5 @@
 // 1. UPDATED CONFIGURATION
-const API_KEY = "AIzaSyBlD9d_f-4slPml_2EUue1cK3GTbpo9UtA";
+const API_KEY = "Gemini_api_written_here";
 
 // Change "v1" to "v1beta" to support the 1.5-flash model
 const API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=" + API_KEY;
@@ -356,4 +356,5 @@ document.getElementById('contact-form').addEventListener('submit', function (e) 
             btn.innerText = 'Send Message';
             btn.disabled = false;
         });
+
 });
