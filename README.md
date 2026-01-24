@@ -21,3 +21,4 @@ At its heart, Yawar AI isn't just a chatbot; it's a productivity powerhouse wrap
 Unlike generic AI tools, Yawar AI features a carefully curated "Professional Charcoal" interface. Utilizing the Inter font family for maximum readability and a UI inspired by modern glassmorphism, every interaction feels grounded, premium, and focused.
 
 ## Yawar AI is more than an assistant—it’s an extension of your digital workflow, designed for those who refuse to compromise on either power or style.
+                                                      Copyright © 2026 Yawar AI. All Rights Reserved.
