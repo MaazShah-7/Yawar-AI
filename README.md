@@ -1,5 +1,5 @@
 # Yawar AI: Your Intelligent, Sophisticated Digital Companion
-Yawar AI is a cutting-edge, multi-modal artificial intelligence platform designed to bridge the gap between complex computation and elegant user experience. Built with a focus on speed, intelligence, and a "sophisticated dark" aesthetic, Yawar AI leverages the power of the Gemini 2.5 Flash model to provide lightning-fast, highly accurate responses for developers, creators, and curious minds alike.
+Yawar AI is a cutting-edge, multi-modal artificial intelligence platform designed to bridge the gap between complex computation and elegant user experience. Built with a focus on speed, intelligence, and a "sophisticated dark" aesthetic, Yawar AI leverages the power of the Gemini 3 Flash Preview model to provide lightning-fast, highly accurate responses for developers, creators, and curious minds alike.
 
 ## Core Philosophy
 At its heart, Yawar AI isn't just a chatbot; it's a productivity powerhouse wrapped in a premium interface. We believe that an AI should be as beautiful to look at as it is smart to talk to. By combining high-performance AI integration with a customizable, designer-grade UI, Yawar AI offers a seamless workflow that feels both professional and personal.
