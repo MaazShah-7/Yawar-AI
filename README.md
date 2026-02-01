@@ -1,24 +1,77 @@
 # Yawar AI: Your Intelligent, Sophisticated Digital Companion
-Yawar AI is a cutting-edge, multi-modal artificial intelligence platform designed to bridge the gap between complex computation and elegant user experience. Built with a focus on speed, intelligence, and a "sophisticated dark" aesthetic, Yawar AI leverages the power of the Gemini 3 Flash Preview model to provide lightning-fast, highly accurate responses for developers, creators, and curious minds alike.
 
-## Core Philosophy
-At its heart, Yawar AI isn't just a chatbot; it's a productivity powerhouse wrapped in a premium interface. We believe that an AI should be as beautiful to look at as it is smart to talk to. By combining high-performance AI integration with a customizable, designer-grade UI, Yawar AI offers a seamless workflow that feels both professional and personal.
+**Yawar AI** is a cutting-edge, full-stack conversational platform designed to bridge the gap between complex AI computation and an elegant user experience. Leveraging the **Google Gemini 3 Flash Preview** model, it provides a high-performance digital assistant capable of real-time brainstorming, coding assistance, and intelligent inquiry handling.
 
-## Key Highlights
-**⚡ Blazing-Fast Intelligence:** Driven by the Gemini Flash engine, Yawar AI delivers near-instant responses, making it ideal for real-time brainstorming and rapid coding assistance.
+## 🌟 Key Features
 
-**🎙️ Multi-Modal Interaction:** Go beyond typing. With integrated Speech-to-Text and Text-to-Speech capabilities, you can have a natural, hands-free conversation with your AI.
+* **Secure Serverless Architecture**: Utilizes a Vercel-hosted proxy to protect API credentials from client-side exposure.
+* **Persistent Memory**: Maintains conversation context via a `chatHistory` array, with long-term storage powered by **Local Storage**.
+* **Multi-Modal Theming**: Features a custom theme engine with **Teal**, **Amethyst**, and **Grey** modes using CSS variable injection.
+* **Voice Integration**: Native support for hands-free interaction using the **Web Speech API**.
+* **Advanced UI/UX**: Professional "Glassmorphism" design with responsive layouts, frosted glass effects, and the Inter font family.
+* **Markdown Support**: High-fidelity rendering of AI responses, including code blocks and formatted lists, via **Marked.js**.
 
-**🧠 Persistent Contextual Memory:** Yawar doesn't just reply; it remembers. It retains conversation history to provide contextually relevant answers throughout your session, saved locally for your convenience.
 
-**💻 Developer-First Design:** Featuring high-fidelity Markdown rendering and professional code block styling, technical documentation and programming snippets are presented in a clean, readable format.
+## 🛠️ Technologies Used
 
-**🎨 Dynamic Customization:** Choose your vibe. With three distinct professional themes—Teal, Amethyst, and Grey—you can tailor the workspace to match your mood or environment.
+| Category | Technology |
+| --- | --- |
+| **AI Engine** | Google Gemini 3 Flash Preview |
+| **Frontend** | HTML5, CSS3, JavaScript (ES6+) |
+| **Backend** | Node.js & Vercel Serverless Functions |
+| **Styling** | Custom CSS Variables, Font Awesome 6.4.0 |
+| **Libraries** | Marked.js, EmailJS |
+| **Security** | Dotenv (Secret Management), Gitignore | 
 
-**📂 Organized Workflow:** A dedicated "Recent Chats" sidebar ensures your most important conversations are always just one click away, maintaining a clutter-free and efficient workspace.
+## 🚀 Getting Started
 
-## The Designer’s Touch
-Unlike generic AI tools, Yawar AI features a carefully curated "Professional Charcoal" interface. Utilizing the Inter font family for maximum readability and a UI inspired by modern glassmorphism, every interaction feels grounded, premium, and focused.
+### Prerequisites
 
-## Yawar AI is more than an assistant—it’s an extension of your digital workflow, designed for those who refuse to compromise on either power or style.
-                                                      Copyright © 2026 Yawar AI. All Rights Reserved.
+* A **Google Gemini API Key** from [Google AI Studio](https://aistudio.google.com/).
+* A [Vercel](https://vercel.com/) account for backend hosting.
+
+### Installation
+
+1. **Clone the repository**:
+```bash
+git clone https://github.com/MaazShah-7/yawar-ai.git
+cd yawar-ai
+
+```
+
+
+2. **Environment Setup**:
+Create a `.env` file in the root directory and add your key:
+```text
+GEMINI_KEY=your_api_key_here
+
+```
+
+
+3. **Deploy to Vercel**:
+* Connect your GitHub repo to Vercel.
+* Add `GEMINI_KEY` to the **Environment Variables** in the Vercel Dashboard.
+
+
+
+## 📂 Project Structure
+
+```text
+├── api/
+│   └── chat.js        # Serverless backend proxy (hides API Key)
+├── index.html         # Main chat interface [cite: 4]
+├── contact.html       # Contact form with EmailJS integration [cite: 3]
+├── style.css          # Professional Charcoal & Theme styles
+├── script.js          # Core logic & State management
+├── package.json       # Project dependencies [cite: 5]
+|── .gitignore         # Prevents .env from being uploaded [cite: 2]
+
+```
+
+## 🔒 Security Note
+
+This project implements a **zero-exposure** policy for API keys. The client-side code interacts with `/api/chat`, ensuring that your `GEMINI_KEY` is only ever handled server-side within Vercel's secure environment.
+
+---
+
+*Created by Maaz © 2026 Yawar AI*
