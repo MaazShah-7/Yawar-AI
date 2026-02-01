@@ -59,12 +59,12 @@ GEMINI_KEY=your_api_key_here
 ```text
 ├── api/
 │   └── chat.js        # Serverless backend proxy (hides API Key)
-├── index.html         # Main chat interface [cite: 4]
-├── contact.html       # Contact form with EmailJS integration [cite: 3]
+├── index.html         # Main chat interface
+├── contact.html       # Contact form with EmailJS integration
 ├── style.css          # Professional Charcoal & Theme styles
 ├── script.js          # Core logic & State management
-├── package.json       # Project dependencies [cite: 5]
-|── .gitignore         # Prevents .env from being uploaded [cite: 2]
+├── package.json       # Project dependencies
+|── .gitignore         # Prevents .env from being uploaded
 
 ```
 
@@ -74,4 +74,4 @@ This project implements a **zero-exposure** policy for API keys. The client-side
 
 ---
 
-*Created by Maaz © 2026 Yawar AI*
+*Created by [Maaz](https://www.linkedin.com/in/mmsm7/) © 2026 Yawar AI*
