@@ -11,6 +11,15 @@
 * **Advanced UI/UX**: Professional "Glassmorphism" design with responsive layouts, frosted glass effects, and the Inter font family.
 * **Markdown Support**: High-fidelity rendering of AI responses, including code blocks and formatted lists, via **Marked.js**.
 
+## 📧 Email Automation (Contact System)
+
+The project includes a robust contact system powered by **EmailJS**, featuring automated communication workflows:
+
+* **Instant Form-to-Inbox**: Form submissions are instantly routed to the administrator's email without requiring a dedicated mail server.
+* **Automated Auto-Replies**: Configured to send an immediate "Acknowledgement Receipt" to the user's provided email address upon submission.
+* **Dynamic Templates**: Utilizes logic-based templates that inject the user's name and message content dynamically for a personalized feel.
+* **Real-time Validation**: Built-in visual feedback (Loading/Success/Error states) to ensure a smooth user experience during the automation process.
+
 
 ## 🛠️ Technologies Used
 
